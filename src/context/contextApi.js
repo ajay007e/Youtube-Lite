@@ -7,7 +7,7 @@ export const Context = createContext()
 export const AppContext = (props)=>{
     const [loading,setLoading]=useState(false)
     const [searchResult,setSearchResult] = useState(false);
-    const [selectCategories, setSelectCategories] = useState("new");
+    const [selectCategories, setSelectCategories] = useState("New");
     const [mobileMenu, setMobileMenu] = useState(false);
 
     useEffect(()=>{
