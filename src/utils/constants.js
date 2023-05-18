@@ -12,20 +12,29 @@ import { FiSettings, FiHelpCircle } from "react-icons/fi";
 
 export const categories = [
   { name: "New", icon: <AiFillHome />, type: "home" },
+  { name: "Shorts", icon: <></>, type: "page" },
+  { name: "Subscription", icon: <></>, type: "page", divider: true },
+
+  { name: "Library", icon: <></>, type: "page" },
+  { name: "History", icon: <></>, type: "page", divider: true },
+
   { name: "Trending", icon: <MdLocalFireDepartment />, type: "category" },
+  { name: "Sports", icon: <GiDiamondTrophy />, type: "category" },
   { name: "Music", icon: <CgMusicNote />, type: "category" },
-  { name: "Films", icon: <FiFilm />, type: "category" },
+  { name: "Movies & Shows", icon: <FiFilm />, type: "category" },
   { name: "Live", icon: <MdLiveTv />, type: "category" },
   { name: "Gaming", icon: <IoGameControllerSharp />, type: "category" },
   { name: "News", icon: <ImNewspaper />, type: "category" },
-  { name: "Sports", icon: <GiDiamondTrophy />, type: "category" },
   { name: "Learning", icon: <RiLightbulbLine />, type: "category" },
   {
-    name: "Fashion & beauty",
+    name: "Fashion & Beauty",
     icon: <GiEclipse />,
     type: "category",
     divider: true,
   },
+
+  { name: "Browse Channels", icon: <></>, type: "page",divider:true },
+
   { name: "Settings", icon: <FiSettings />, type: "menu" },
   { name: "Report History", icon: <AiOutlineFlag />, type: "menu" },
   { name: "Help", icon: <FiHelpCircle />, type: "menu" },
